@@ -1,0 +1,47 @@
+Running main() from gtest_main.cc
+[==========] Running 19 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 19 tests from CollatzFixture
+[ RUN      ] CollatzFixture.read_1
+[       OK ] CollatzFixture.read_1 (0 ms)
+[ RUN      ] CollatzFixture.read_2
+[       OK ] CollatzFixture.read_2 (0 ms)
+[ RUN      ] CollatzFixture.read_3
+[       OK ] CollatzFixture.read_3 (0 ms)
+[ RUN      ] CollatzFixture.collatz_cycle_length_1
+[       OK ] CollatzFixture.collatz_cycle_length_1 (0 ms)
+[ RUN      ] CollatzFixture.collatz_cycle_length_2
+[       OK ] CollatzFixture.collatz_cycle_length_2 (0 ms)
+[ RUN      ] CollatzFixture.collatz_cycle_length_3
+[       OK ] CollatzFixture.collatz_cycle_length_3 (0 ms)
+[ RUN      ] CollatzFixture.collatz_cycle_length_4
+[       OK ] CollatzFixture.collatz_cycle_length_4 (0 ms)
+[ RUN      ] CollatzFixture.collatz_max_cycle_length_1
+[       OK ] CollatzFixture.collatz_max_cycle_length_1 (0 ms)
+[ RUN      ] CollatzFixture.collatz_max_cycle_length_2
+[       OK ] CollatzFixture.collatz_max_cycle_length_2 (0 ms)
+[ RUN      ] CollatzFixture.collatz_max_cycle_length_3
+[       OK ] CollatzFixture.collatz_max_cycle_length_3 (0 ms)
+[ RUN      ] CollatzFixture.collatz_max_cycle_length_4
+[       OK ] CollatzFixture.collatz_max_cycle_length_4 (0 ms)
+[ RUN      ] CollatzFixture.eval_1
+[       OK ] CollatzFixture.eval_1 (0 ms)
+[ RUN      ] CollatzFixture.eval_2
+[       OK ] CollatzFixture.eval_2 (0 ms)
+[ RUN      ] CollatzFixture.eval_3
+[       OK ] CollatzFixture.eval_3 (0 ms)
+[ RUN      ] CollatzFixture.eval_4
+[       OK ] CollatzFixture.eval_4 (0 ms)
+[ RUN      ] CollatzFixture.print_1
+[       OK ] CollatzFixture.print_1 (0 ms)
+[ RUN      ] CollatzFixture.print_2
+[       OK ] CollatzFixture.print_2 (0 ms)
+[ RUN      ] CollatzFixture.print_3
+[       OK ] CollatzFixture.print_3 (0 ms)
+[ RUN      ] CollatzFixture.solve
+[       OK ] CollatzFixture.solve (0 ms)
+[----------] 19 tests from CollatzFixture (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 19 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 19 tests.
