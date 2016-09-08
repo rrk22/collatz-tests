@@ -34,9 +34,9 @@ TEST(CollatzFixture, read) {
   ASSERT_EQ(10, j);
 }
 
-// ----
+// -----------------
 // compute_cycle_len
-// ----
+// -----------------
 
 TEST(CollatzFixture, compute_cycle_len_1) {
   const int v = compute_cycle_len(1);
