@@ -34,7 +34,7 @@ TEST(CollatzFixture, read_1) {
     ASSERT_EQ(10, j);}
 
 TEST(CollatzFixture, read_2) {
-    istringstream r("1        10\n");
+    istringstream r("1    10\n");
     int           i;
     int           j;
     const bool b = collatz_read(r, i, j);
@@ -52,13 +52,13 @@ TEST(CollatzFixture, read_3) {
     ASSERT_EQ(1, j);}
 
 TEST(CollatzFixture, read_4) {
-    istringstream r("1000 1000000\n");
+    istringstream r("1000 10000\n");
     int           i;
     int           j;
     const bool b = collatz_read(r, i, j);
     ASSERT_TRUE(b);
     ASSERT_EQ( 1000, i);
-    ASSERT_EQ(1000000, j);}
+    ASSERT_EQ(10000, j);}
 
 // ----
 // eval
