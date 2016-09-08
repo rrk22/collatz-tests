@@ -1,0 +1,65 @@
+Running main() from gtest_main.cc
+[==========] Running 28 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 28 tests from CollatzFixture
+[ RUN      ] CollatzFixture.solution_1
+[       OK ] CollatzFixture.solution_1 (0 ms)
+[ RUN      ] CollatzFixture.solution_2
+[       OK ] CollatzFixture.solution_2 (0 ms)
+[ RUN      ] CollatzFixture.solution_3
+[       OK ] CollatzFixture.solution_3 (0 ms)
+[ RUN      ] CollatzFixture.opt_1
+[       OK ] CollatzFixture.opt_1 (0 ms)
+[ RUN      ] CollatzFixture.opt_2
+[       OK ] CollatzFixture.opt_2 (1 ms)
+[ RUN      ] CollatzFixture.opt_3
+[       OK ] CollatzFixture.opt_3 (2 ms)
+[ RUN      ] CollatzFixture.start_1
+[       OK ] CollatzFixture.start_1 (0 ms)
+[ RUN      ] CollatzFixture.start_2
+[       OK ] CollatzFixture.start_2 (1 ms)
+[ RUN      ] CollatzFixture.start_3
+[       OK ] CollatzFixture.start_3 (0 ms)
+[ RUN      ] CollatzFixture.read_1
+[       OK ] CollatzFixture.read_1 (0 ms)
+[ RUN      ] CollatzFixture.read_2
+[       OK ] CollatzFixture.read_2 (0 ms)
+[ RUN      ] CollatzFixture.read_3
+[       OK ] CollatzFixture.read_3 (0 ms)
+[ RUN      ] CollatzFixture.read_4
+[       OK ] CollatzFixture.read_4 (0 ms)
+[ RUN      ] CollatzFixture.eval_1
+[       OK ] CollatzFixture.eval_1 (0 ms)
+[ RUN      ] CollatzFixture.eval_2
+[       OK ] CollatzFixture.eval_2 (0 ms)
+[ RUN      ] CollatzFixture.eval_3
+[       OK ] CollatzFixture.eval_3 (0 ms)
+[ RUN      ] CollatzFixture.eval_4
+[       OK ] CollatzFixture.eval_4 (0 ms)
+[ RUN      ] CollatzFixture.eval_5
+[       OK ] CollatzFixture.eval_5 (4 ms)
+[ RUN      ] CollatzFixture.eval_6
+[       OK ] CollatzFixture.eval_6 (0 ms)
+[ RUN      ] CollatzFixture.eval_7
+[       OK ] CollatzFixture.eval_7 (0 ms)
+[ RUN      ] CollatzFixture.print_1
+[       OK ] CollatzFixture.print_1 (0 ms)
+[ RUN      ] CollatzFixture.print_2
+[       OK ] CollatzFixture.print_2 (0 ms)
+[ RUN      ] CollatzFixture.print_3
+[       OK ] CollatzFixture.print_3 (0 ms)
+[ RUN      ] CollatzFixture.print_4
+[       OK ] CollatzFixture.print_4 (0 ms)
+[ RUN      ] CollatzFixture.solve_1
+[       OK ] CollatzFixture.solve_1 (1 ms)
+[ RUN      ] CollatzFixture.solve_2
+[       OK ] CollatzFixture.solve_2 (0 ms)
+[ RUN      ] CollatzFixture.solve_3
+[       OK ] CollatzFixture.solve_3 (0 ms)
+[ RUN      ] CollatzFixture.solve_4
+[       OK ] CollatzFixture.solve_4 (0 ms)
+[----------] 28 tests from CollatzFixture (10 ms total)
+
+[----------] Global test environment tear-down
+[==========] 28 tests from 1 test case ran. (10 ms total)
+[  PASSED  ] 28 tests.
