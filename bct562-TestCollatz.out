@@ -18,6 +18,10 @@ Running main() from gtest_main.cc
 [       OK ] CollatzFixture.eval_3 (2 ms)
 [ RUN      ] CollatzFixture.eval_4
 [       OK ] CollatzFixture.eval_4 (2 ms)
+[ RUN      ] CollatzFixture.eval_5
+[       OK ] CollatzFixture.eval_5
+[ RUN      ] CollatzFixture.eval_6
+[       OK ] CollatzFixture.eval_6 (2 ms)
 [ RUN      ] CollatzFixture.print
 [       OK ] CollatzFixture.print (11 ms)
 [ RUN      ] CollatzFixture.solve
