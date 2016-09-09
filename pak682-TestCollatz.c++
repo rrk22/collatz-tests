@@ -100,11 +100,9 @@ TEST(CollatzFixture, print_2) {
 // -----
 
 TEST(CollatzFixture, solve) {
-  istringstream r(
-      "1 10\n100 200\n201 210\n900 1000\n21520 465688\n465688 21520");
+  istringstream r("1 10\n100 200\n201 210\n900 1000\n1000 900\n");
   ostringstream w;
   collatz_solve(r, w);
-  ASSERT_EQ("1 10 20\n100 200 125\n201 210 89\n900 1000 174\n21520 465688 "
-            "449\n465688 21520 449\n",
+  ASSERT_EQ("1 10 20\n100 200 125\n201 210 89\n900 1000 174\n1000 900 174\n",
             w.str());
 }
