@@ -46,13 +46,13 @@ TEST(CollatzFixture, read_2) {
 }
 
 TEST(CollatzFixture, read_3) {
-  istringstream r("1000000 1000000\n");
+  istringstream r("100000 100000\n");
   int i;
   int j;
   const bool b = collatz_read(r, i, j);
   ASSERT_TRUE(b);
-  ASSERT_EQ(1000000, i);
-  ASSERT_EQ(1000000, j);
+  ASSERT_EQ(100000, i);
+  ASSERT_EQ(100000, j);
 }
 
 TEST(CollatzFixture, read_4) {
@@ -158,10 +158,9 @@ TEST(CollatzFixture, solve_3) {
 }
 
 TEST(CollatzFixture, solve_4) {
-  istringstream r("1 10\n999168 1000000\n151178 159486\n50 65\n206 100\n");
+  istringstream r("1 10\n151178 159486\n50 65\n206 100\n");
   ostringstream w;
   collatz_solve(r, w);
-  ASSERT_EQ("1 10 20\n999168 1000000 396\n151178 159486 383\n50 65 113\n206 "
-            "100 125\n",
+  ASSERT_EQ("1 10 20\n151178 159486 383\n50 65 113\n206 100 125\n",
             w.str());
 }
