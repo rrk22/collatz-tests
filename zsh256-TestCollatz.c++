@@ -113,3 +113,4 @@ TEST(CollatzFixture, solve_2) {
     ostringstream w;
     collatz_solve(r, w);
     ASSERT_EQ("999999 1000000 259\n99999 1 351\n2 1 2\n9135 3817 262\n", w.str());}
+    
