@@ -1,0 +1,57 @@
+==2517== Memcheck, a memory error detector
+==2517== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==2517== Using Valgrind-3.10.0 and LibVEX; rerun with -h for copyright info
+==2517== Command: ./TestCollatz
+==2517== 
+Running main() from gtest_main.cc
+[==========] Running 11 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 11 tests from CollatzFixture
+[ RUN      ] CollatzFixture.read
+[       OK ] CollatzFixture.read (24 ms)
+[ RUN      ] CollatzFixture.eval_1
+[       OK ] CollatzFixture.eval_1 (4 ms)
+[ RUN      ] CollatzFixture.eval_2
+[       OK ] CollatzFixture.eval_2 (2 ms)
+[ RUN      ] CollatzFixture.eval_3
+[       OK ] CollatzFixture.eval_3 (2 ms)
+[ RUN      ] CollatzFixture.eval_4
+[       OK ] CollatzFixture.eval_4 (3 ms)
+[ RUN      ] CollatzFixture.eval_5
+[       OK ] CollatzFixture.eval_5 (2 ms)
+[ RUN      ] CollatzFixture.eval_6
+[       OK ] CollatzFixture.eval_6 (2 ms)
+[ RUN      ] CollatzFixture.eval_7
+[       OK ] CollatzFixture.eval_7 (2 ms)
+[ RUN      ] CollatzFixture.print
+[       OK ] CollatzFixture.print (8 ms)
+[ RUN      ] CollatzFixture.solve
+[       OK ] CollatzFixture.solve (6 ms)
+[ RUN      ] CollatzFixture.solve_2
+[       OK ] CollatzFixture.solve_2 (5 ms)
+[----------] 11 tests from CollatzFixture (86 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test case ran. (156 ms total)
+[  PASSED  ] 11 tests.
+==2517== 
+==2517== HEAP SUMMARY:
+==2517==     in use at exit: 72,704 bytes in 1 blocks
+==2517==   total heap usage: 248 allocs, 247 frees, 131,614 bytes allocated
+==2517== 
+==2517== LEAK SUMMARY:
+==2517==    definitely lost: 0 bytes in 0 blocks
+==2517==    indirectly lost: 0 bytes in 0 blocks
+==2517==      possibly lost: 0 bytes in 0 blocks
+==2517==    still reachable: 72,704 bytes in 1 blocks
+==2517==         suppressed: 0 bytes in 0 blocks
+==2517== Rerun with --leak-check=full to see details of leaked memory
+==2517== 
+==2517== For counts of detected and suppressed errors, rerun with: -v
+==2517== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+File 'Collatz.c++'
+Lines executed:100.00% of 31
+Branches executed:100.00% of 28
+Taken at least once:78.57% of 28
+Calls executed:100.00% of 14
+Creating 'Collatz.c++.gcov'
