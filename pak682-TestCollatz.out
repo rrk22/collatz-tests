@@ -1,0 +1,31 @@
+Running main() from gtest_main.cc
+[==========] Running 11 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 11 tests from CollatzFixture
+[ RUN      ] CollatzFixture.read
+[       OK ] CollatzFixture.read (0 ms)
+[ RUN      ] CollatzFixture.eval_1
+[       OK ] CollatzFixture.eval_1 (0 ms)
+[ RUN      ] CollatzFixture.eval_2
+[       OK ] CollatzFixture.eval_2 (0 ms)
+[ RUN      ] CollatzFixture.eval_3
+[       OK ] CollatzFixture.eval_3 (0 ms)
+[ RUN      ] CollatzFixture.eval_4
+[       OK ] CollatzFixture.eval_4 (0 ms)
+[ RUN      ] CollatzFixture.eval_one_1
+[       OK ] CollatzFixture.eval_one_1 (0 ms)
+[ RUN      ] CollatzFixture.eval_one_2
+[       OK ] CollatzFixture.eval_one_2 (0 ms)
+[ RUN      ] CollatzFixture.eval_one_3
+[       OK ] CollatzFixture.eval_one_3 (0 ms)
+[ RUN      ] CollatzFixture.print
+[       OK ] CollatzFixture.print (0 ms)
+[ RUN      ] CollatzFixture.print_2
+[       OK ] CollatzFixture.print_2 (0 ms)
+[ RUN      ] CollatzFixture.solve
+[       OK ] CollatzFixture.solve (0 ms)
+[----------] 11 tests from CollatzFixture (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 11 tests.
